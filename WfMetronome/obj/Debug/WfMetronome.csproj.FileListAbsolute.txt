@@ -1,0 +1,9 @@
+C:\Projets_Visual_Studio\WfMetronome\WfMetronome\bin\Debug\WfMetronome.exe.config
+C:\Projets_Visual_Studio\WfMetronome\WfMetronome\bin\Debug\WfMetronome.exe
+C:\Projets_Visual_Studio\WfMetronome\WfMetronome\bin\Debug\WfMetronome.pdb
+C:\Projets_Visual_Studio\WfMetronome\WfMetronome\obj\Debug\WfMetronome.Form1.resources
+C:\Projets_Visual_Studio\WfMetronome\WfMetronome\obj\Debug\WfMetronome.Properties.Resources.resources
+C:\Projets_Visual_Studio\WfMetronome\WfMetronome\obj\Debug\WfMetronome.csproj.GenerateResource.Cache
+C:\Projets_Visual_Studio\WfMetronome\WfMetronome\obj\Debug\WfMetronome.exe
+C:\Projets_Visual_Studio\WfMetronome\WfMetronome\obj\Debug\WfMetronome.pdb
+C:\Projets_Visual_Studio\WfMetronome\WfMetronome\obj\Debug\WfMetronome.csprojResolveAssemblyReference.cache
