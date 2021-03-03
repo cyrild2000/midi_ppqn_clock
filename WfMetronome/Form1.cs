@@ -126,8 +126,6 @@ namespace WfMetronome
                 if (_current_ppqn % _ppqn == 0)
                 {
                     _bar += 1;
-                } else
-                {
                 }
                 _current_ppqn += 1;
                 _elapsed += _timer.Interval;
@@ -159,9 +157,11 @@ namespace WfMetronome
             updateLabelSafe(label6, _current_ppqn.ToString());
             if (_current_ppqn % _ppqn == 0)
             {
+                
                 updateLabelSafe(label8, (_elapsed / 1000).ToString());
                 drawPulse(System.Drawing.Color.Green);
                 System.Media.SystemSounds.Beep.Play();
+
             } else
             {
                 drawPulse(System.Drawing.Color.YellowGreen);

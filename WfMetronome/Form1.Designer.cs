@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.reset = new System.Windows.Forms.Button();
             this.interval = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.total = new System.Windows.Forms.Label();
@@ -49,7 +50,6 @@
             this.Beat = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.reset = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tempo)).BeginInit();
             this.SuspendLayout();
@@ -77,6 +77,16 @@
             this.panel1.Size = new System.Drawing.Size(678, 123);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // reset
+            // 
+            this.reset.Location = new System.Drawing.Point(560, 31);
+            this.reset.Name = "reset";
+            this.reset.Size = new System.Drawing.Size(75, 23);
+            this.reset.TabIndex = 13;
+            this.reset.Text = "Reset";
+            this.reset.UseVisualStyleBackColor = true;
+            this.reset.Click += new System.EventHandler(this.reset_Click);
             // 
             // interval
             // 
@@ -256,9 +266,9 @@
             this.Beat.AutoSize = true;
             this.Beat.Location = new System.Drawing.Point(125, 169);
             this.Beat.Name = "Beat";
-            this.Beat.Size = new System.Drawing.Size(38, 16);
+            this.Beat.Size = new System.Drawing.Size(48, 16);
             this.Beat.TabIndex = 5;
-            this.Beat.Text = "Bar";
+            this.Beat.Text = "Beat";
             // 
             // label10
             // 
@@ -277,16 +287,6 @@
             this.label11.Size = new System.Drawing.Size(228, 16);
             this.label11.TabIndex = 7;
             this.label11.Text = "Elapsed Time (seconds)";
-            // 
-            // reset
-            // 
-            this.reset.Location = new System.Drawing.Point(560, 31);
-            this.reset.Name = "reset";
-            this.reset.Size = new System.Drawing.Size(75, 23);
-            this.reset.TabIndex = 13;
-            this.reset.Text = "Reset";
-            this.reset.UseVisualStyleBackColor = true;
-            this.reset.Click += new System.EventHandler(this.reset_Click);
             // 
             // Form1
             // 
